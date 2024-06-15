@@ -11,7 +11,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("abhay.plugins", {
+require("lazy").setup({{import = "abhay.plugins"}, {import = "abhay.plugins.lsp"}}, {
   change_detection = {
     checker = {
       enabled = true,
