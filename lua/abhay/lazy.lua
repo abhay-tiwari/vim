@@ -13,6 +13,10 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("abhay.plugins", {
   change_detection = {
+    checker = {
+      enabled = true,
+      notify = false
+    },
     notify = false
   }
 })
