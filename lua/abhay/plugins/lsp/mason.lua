@@ -30,6 +30,7 @@ return {
 				"emmet_ls",
 				"prismals",
 				"pyright",
+				"gopls",
 			},
 		})
 
